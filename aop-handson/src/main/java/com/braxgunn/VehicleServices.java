@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class VehicleServices {
     
+    @ConnectivityAspectInf
     public void startVehicle(){
         System.out.println("[VEHICLE]: Engine started, vehicle is ready to move.");
     }
